@@ -1,0 +1,289 @@
+//Estrenos//
+
+.body-grid{
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "header1 header1"
+    "img-prin img-prin"
+    "main main"
+    "footer footer"
+      
+    ;
+
+    .img-prin{
+        grid-area: img-prin;
+        height: 65vh;
+        background-image: url(../img/moonfall.jpg);
+     }
+     
+
+     .header-estr{
+        grid-area: header1;
+     }
+
+     .estrenos-m{
+        grid-area: main;
+        background-color: $color_3;
+     }
+
+     .footer-estr{
+        grid-area: footer;
+        background-color: $color_3;
+     }
+ }
+
+
+
+
+
+
+
+.spiderman{
+    min-width: 270px;
+ }
+ .h1-estr{
+    font-size: 30px;
+    color: $color_1;
+    text-transform: uppercase;
+    margin: 20px 10px 10px 30px;
+    font-family: 'Libre Franklin', sans-serif;
+ }
+
+ .estrenos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto 0px auto;
+    background-color: black;
+    padding: 20px 0;
+    height: 500px;
+    margin-bottom: -100px;
+
+
+    .la-abuela img{
+        width: 280px;
+        height: 100%;
+     }
+
+    .red img{
+        width: 280px;
+     }
+ }
+ 
+
+
+
+
+//Libro de la Selva//
+.librodelaselva{
+    min-width: 270px;
+    transition: all 0.3 ease-in-out;
+
+    &hover{
+        transform: scale(2, 0.5);
+     }
+ }
+
+.main-peli1{
+    background-image: url(../img/fondolibro.jpg);
+    background-position: center;
+
+    .mid-peli1 {
+        margin: 0 auto;
+        width: 60%;
+        padding: 35px;
+        color: #ffffff;
+     }
+
+      
+    .iframe-peli1 {
+    width: 562px;
+    margin: 0 auto;
+    }
+
+    .peli1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+     }
+
+     .peli1 h2 {
+        padding: 10px;
+        text-transform: uppercase;
+     }
+
+     .peli1 p {
+        padding: 10px;
+        text-indent: 10px;
+     }
+ }
+
+ //Spiderman//
+ .main-peli2{
+    background-image: url(../img/fondospiderman.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+
+    .mid-peli2 {
+        margin: 0 auto;
+        width: 60%;
+        padding: 35px;
+        color: $color_2;
+
+        .iframe-peli2 {
+            width: 562px;
+            margin: 0 auto;
+         }
+     }
+
+     .peli2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+     }
+
+     h2 {
+        padding: 10px;
+        text-transform: uppercase;
+     }
+
+     p {
+        padding: 10px;
+        text-indent: 10px;
+     }
+ }
+
+//Avengers//
+.main-peli3{
+    background-image: url(../img/avenger-fondo.jpg);
+ }
+
+//La Abuela//
+.main-peli4{
+    background-image: url(../img/la-abuela-fondo.jpg);
+    background-position: center;
+ }
+
+ //RED//
+ .main-peli5{
+    background-image: url(../img/red-fondo.jpg);
+    background-position: center;
+ }
+
+ //Hasta que//
+ .hastaque img{
+    width: 280px;
+ }
+
+ //General//
+
+ .mid-peli {
+    margin: 0 auto;
+    width: 60%;
+    padding: 35px;
+    color: $color_2;
+
+    .iframe-peli {
+        width: 562px;
+        margin: 0 auto;
+     }
+
+     .peli {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+        h2 {
+            padding: 10px;
+            text-transform: uppercase;
+         }
+
+         p {
+            padding: 10px;
+            text-indent: 10px;
+            text-align: start;
+         }
+
+         img{
+            width: 30%;
+         }
+     }
+ }
+
+ //Contacto//
+ .form-contacto{
+    color: #b2b2b2;
+    background: #24303c;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    margin-bottom: 100px;
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+     }
+
+     .controls{
+        color: #b2b2b2;
+        width: 100%;
+        background-color: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        font-size: 18px;
+     }
+
+     p{
+        height: 20px;
+        text-align: center;
+        font-size: 18px;
+     }
+
+     a{
+        color: $color_2;
+        text-decoration: none;
+     }
+
+     a:hover{
+        color: $color_2;
+        text-decoration: underline;
+     }
+
+     .opciones{
+        margin-bottom: 25px;
+        margin: 0px 6px 12px 0px;
+     }
+
+     .textarea{
+        color: white;
+        background: #24303c;
+        border: 1px solid $color_2;
+        font-size: 15px;
+        width: 340px;
+        height: 100px;
+     }
+     .botons{
+        width: 100%;
+        background-color: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+     }
+     .enviar input:hover{
+        background-color: lightslategray;
+     }
+     
+ }

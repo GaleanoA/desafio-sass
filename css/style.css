@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Anek Tamil', sans-serif; }
+
+body {
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 600px;
+  width: 100%; }
+
+.slide img {
+  height: 65vh; }
+
+h5 {
+  font-size: 30px; }
+
+.carousel-caption1 p {
+  font-size: 20px; }
+
+.container-fluid {
+  width: 80%; }
+  .container-fluid .redes {
+    margin-left: 200px; }
+  .container-fluid .terminos {
+    padding-left: 150px; }
+
+.peliculas1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5px; }
+  .peliculas1 img {
+    height: 300px;
+    width: 300px;
+    max-height: 400px;
+    max-width: 400px;
+    padding: 10px 0px; }
+
+.content1 h2 {
+  font-family: 'Libre Franklin', sans-serif;
+  display: flex;
+  margin: 20px 0px 20px 20px;
+  font-size: 30px;
+  color: white; }
+
+.body-grid {
+  background-color: #000000;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "header1 header1" "img-prin img-prin" "main main" "footer footer"; }
+  .body-grid .img-prin {
+    grid-area: img-prin;
+    height: 65vh;
+    background-image: url(../img/moonfall.jpg); }
+  .body-grid .header-estr {
+    grid-area: header1; }
+  .body-grid .estrenos-m {
+    grid-area: main;
+    background-color: #000000; }
+  .body-grid .footer-estr {
+    grid-area: footer;
+    background-color: #000000; }
+
+.spiderman {
+  min-width: 270px; }
+
+.h1-estr {
+  font-size: 30px;
+  color: #b2b2b2;
+  text-transform: uppercase;
+  margin: 20px 10px 10px 30px;
+  font-family: 'Libre Franklin', sans-serif; }
+
+.estrenos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px auto 0px auto;
+  background-color: black;
+  padding: 20px 0;
+  height: 500px;
+  margin-bottom: -100px; }
+  .estrenos .la-abuela img {
+    width: 280px;
+    height: 100%; }
+  .estrenos .red img {
+    width: 280px; }
+
+.librodelaselva {
+  min-width: 270px;
+  transition: all 0.3 ease-in-out; }
+  .librodelaselvahover {
+    transform: scale(2, 0.5); }
+
+.main-peli1 {
+  background-image: url(../img/fondolibro.jpg);
+  background-position: center; }
+  .main-peli1 .mid-peli1 {
+    margin: 0 auto;
+    width: 60%;
+    padding: 35px;
+    color: #ffffff; }
+  .main-peli1 .iframe-peli1 {
+    width: 562px;
+    margin: 0 auto; }
+  .main-peli1 .peli1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+  .main-peli1 .peli1 h2 {
+    padding: 10px;
+    text-transform: uppercase; }
+  .main-peli1 .peli1 p {
+    padding: 10px;
+    text-indent: 10px; }
+
+.main-peli2 {
+  background-image: url(../img/fondospiderman.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 30px; }
+  .main-peli2 .mid-peli2 {
+    margin: 0 auto;
+    width: 60%;
+    padding: 35px;
+    color: #ffffff; }
+    .main-peli2 .mid-peli2 .iframe-peli2 {
+      width: 562px;
+      margin: 0 auto; }
+  .main-peli2 .peli2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+  .main-peli2 h2 {
+    padding: 10px;
+    text-transform: uppercase; }
+  .main-peli2 p {
+    padding: 10px;
+    text-indent: 10px; }
+
+.main-peli3 {
+  background-image: url(../img/avenger-fondo.jpg); }
+
+.main-peli4 {
+  background-image: url(../img/la-abuela-fondo.jpg);
+  background-position: center; }
+
+.main-peli5 {
+  background-image: url(../img/red-fondo.jpg);
+  background-position: center; }
+
+.hastaque img {
+  width: 280px; }
+
+.mid-peli {
+  margin: 0 auto;
+  width: 60%;
+  padding: 35px;
+  color: #ffffff; }
+  .mid-peli .iframe-peli {
+    width: 562px;
+    margin: 0 auto; }
+  .mid-peli .peli {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px; }
+    .mid-peli .peli h2 {
+      padding: 10px;
+      text-transform: uppercase; }
+    .mid-peli .peli p {
+      padding: 10px;
+      text-indent: 10px;
+      text-align: start; }
+    .mid-peli .peli img {
+      width: 30%; }
+
+.form-contacto {
+  color: #b2b2b2;
+  background: #24303c;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  margin-bottom: 100px; }
+  .form-contacto h2 {
+    font-size: 30px;
+    margin-bottom: 20px; }
+  .form-contacto .controls {
+    color: #b2b2b2;
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    font-size: 18px; }
+  .form-contacto p {
+    height: 20px;
+    text-align: center;
+    font-size: 18px; }
+  .form-contacto a {
+    color: #ffffff;
+    text-decoration: none; }
+  .form-contacto a:hover {
+    color: #ffffff;
+    text-decoration: underline; }
+  .form-contacto .opciones {
+    margin-bottom: 25px;
+    margin: 0px 6px 12px 0px; }
+  .form-contacto .textarea {
+    color: white;
+    background: #24303c;
+    border: 1px solid #ffffff;
+    font-size: 15px;
+    width: 340px;
+    height: 100px; }
+  .form-contacto .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px; }
+  .form-contacto .enviar input:hover {
+    background-color: lightslategray; }

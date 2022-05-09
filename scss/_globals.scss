@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Tamil', sans-serif;
+ }
+ 
+body{    
+    background-color: black;  
+    background-attachment: fixed;    
+    background-size: cover;    
+    height: 600px;   
+    width: 100%;
+}
+
+
+
+
+//Header//
+
+.slide img {
+    height: 65vh;
+ }
+
+h5{
+    font-size: 30px;
+ }
+
+.carousel-caption1 p{
+    font-size: 20px;
+ 
+ }
+
+ .container-fluid{
+    width: 80%;
+    
+
+    .redes{
+        margin-left: 200px;
+     }
+
+     .terminos{
+        padding-left: 150px;
+     }
+ }
