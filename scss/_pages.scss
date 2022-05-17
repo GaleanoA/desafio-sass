@@ -39,8 +39,32 @@
 
 
 
+// Extend
+
+.img {
+   color: $color_2;
+   width: 280px;
+   height: 100%;
+}
 
 
+.pelis {
+   margin: 0 auto;
+        width: 60%;
+        padding: 35px;
+        color: $color_2;
+}
+
+
+// Mixins
+
+@mixin peli {
+   
+   width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+}
 
 
 .spiderman{
@@ -65,12 +89,11 @@
 
 
     .la-abuela img{
-        width: 280px;
-        height: 100%;
+       @extend .img;
      }
 
     .red img{
-        width: 280px;
+        @extend .img;
      }
  }
  
@@ -80,7 +103,7 @@
 
 //Libro de la Selva//
 .librodelaselva{
-    min-width: 270px;
+    min-width: 280px;
     transition: all 0.3 ease-in-out;
 
     &hover{
@@ -93,10 +116,7 @@
     background-position: center;
 
     .mid-peli1 {
-        margin: 0 auto;
-        width: 60%;
-        padding: 35px;
-        color: #ffffff;
+       @extend .pelis;
      }
 
       
@@ -131,10 +151,7 @@
     margin-bottom: 30px;
 
     .mid-peli2 {
-        margin: 0 auto;
-        width: 60%;
-        padding: 35px;
-        color: $color_2;
+         @extend .pelis;
 
         .iframe-peli2 {
             width: 562px;
@@ -143,10 +160,7 @@
      }
 
      .peli2 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
+       @include peli;
      }
 
      h2 {
@@ -185,10 +199,7 @@
  //General//
 
  .mid-peli {
-    margin: 0 auto;
-    width: 60%;
-    padding: 35px;
-    color: $color_2;
+      @extend .pelis;
 
     .iframe-peli {
         width: 562px;
@@ -196,10 +207,7 @@
      }
 
      .peli {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
+        @include peli;
 
         h2 {
             padding: 10px;
